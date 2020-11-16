@@ -6,7 +6,7 @@
 
 ### **TL;DR**  Multi page responsive website with subtle animations using CSS and some JS where CSS is not possible. This project is working but continousuly being developed with content and styling changes.
 
-**You can view the webpage here: https://gavinpwd.github.io/website-portfolio/ **
+**You can view the webpage here: https://gavinpwd.github.io/website-portfolio/**
 
 This webpage was created using the following:
 
@@ -14,9 +14,9 @@ This webpage was created using the following:
 * Google Fonts API
 * Font Awesome Icons v4.7.0 library
 * All images used are by the author and cannot be used by others.
-* I've used this template and removed files that I do not need: https://html5boilerplate.com
-* I've used this for the bubbles: https://codepen.io/Mark_Bowley/pen/mEtqj  I've changed the values to suit this project.
-* I was inspired byt his website https://www.awwwards.com/sites/mortnsn-com because I liked how good he placed the image with overlapping wrieframe style text.  I love the various animations on this website however my idea for my portfolio website is to apply restraint in moving elements so I've retained the image and text overlap on mobile view because I like that to be the center of attention.
+* Template used but removed files that I do not need: https://html5boilerplate.com
+* Bubbles: https://codepen.io/Mark_Bowley/pen/mEtqj  I've changed the values to suit this project.
+* I was inspired by this website https://www.awwwards.com/sites/mortnsn-com because I liked how good he placed the image with overlapping wireframe style text.  I love the various animations on this website however my idea for my portfolio website is to apply subtle animations only using CSS only so I've retained the image and text overlap on mobile view because I like that to be the center of attention.
 
 **My Design Goals:**
 * Soft colour scheme that is modern and welcoming
