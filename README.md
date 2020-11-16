@@ -14,6 +14,9 @@ This webpage was created using the following:
 * Google Fonts API
 * Font Awesome Icons v4.7.0 library
 * All images used are by the author and cannot be used by others.
+* I've used this template and removed files that I do not need: https://html5boilerplate.com
+* I've used this for the bubbles: https://codepen.io/Mark_Bowley/pen/mEtqj  I've changed the values to suit this project.
+* I was inspired byt his website https://www.awwwards.com/sites/mortnsn-com because I liked how good he placed the image with overlapping wrieframe style text.  I love the various animations on this website however my idea for my portfolio website is to apply restraint in moving elements so I've retained the image and text overlap on mobile view because I like that to be the center of attention.
 
 **My Design Goals:**
 * Soft colour scheme that is modern and welcoming
@@ -44,10 +47,12 @@ This webpage was created using the following:
 
 **Here is a sample screenshot of the webpage:**
 Home Page
+I originally wanted a page for each link (Web, Branding, Objects and Photomedia) but writing all the ocntent would take so much time.  For now, each of thiose links will take you to portfolio.html.  About and Contact links have their own page.
 ![Home Page](/img/home-ss.png)
 
 
 Curtain Menu with Opacity
+I am thinking of adding the logotype with this menu to be consistent with the home page.  I would have to add logotype.jpg onstead of teh curretn set-up where the it is created using CSS.
 
 ![Curtain Menu with Opacity](/img/curtain-menu.jpg)
 
@@ -58,5 +63,7 @@ Gallery Filter Function
 
 
 404 Page with Bubbles Animation
+I've used this for the bubbles: https://codepen.io/Mark_Bowley/pen/mEtqj  I've changed the values to suit this project.
+To trigger this page, try https://gavinpwd.github.io/website-portfolio/inde.html ( i've removed letter x on index.html)
 ![404 Page with Bubbles Animation](/img/bubbles-ss.jpg)
 
