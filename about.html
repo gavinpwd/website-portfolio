@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GAVIN PILI :: Design Portfolio</title>
+  <meta name="description" content="Design Portfolio Website">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Google Font API -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&Capriola&family=Syne&Lato:wght@100;300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/sidenav.css">
+
+</head>
+
+<body>
+
+<div class="container main">    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="/" onclick="return false;">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+        
+    <!-- Use any element to open the sidenav -->
+    <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <div>
+      <h2>About</h2>
+    </div>
+
+    <!-- !PAGE CONTENT! -->
+    <!-- About Section -->
+    <div class="container">  
+      <h3 id="intro">Hello :) I'm Gavin, a Junior Web Developer from Sydney.</h3><br>
+      <img id="avatar" src="img/memoji-021.png" alt="avatar">
+      <p><i>Junior Web Developer. Graphics and Object Designer. Photographer. Amateur Baker.</i></p>
+      <div class="container">
+        <h4 id="quote"><b>The shortest distance between two people is a story.</b></h4>
+        <p>My genuine interest in people is about the way they tell their stories.  I believe that we could learn from one another if we actively participate by engaging with others and taking the time to listen to them.  Whilst doing my design studies at Uni, I became interested in the idea of storytelling as a way to genuinely connect with people.  I've had the privilege of hearing other art practitioners and designers talk about their methodologies, practice and what drives them to do their work.</p> 
+        <p>So my main takeaway from that is our narratives shape our identities. It is the way we interact, our experiences and interests that would contribute to these narratives.  Just like artists who show their work to the public, it helps shed light and inform others about ideas or stories that people have not yet encountered and have no access to. In essence, it opens up our minds.  And I think that's the real beauty about telling your own story.</p>
+        <p>This page is about my behind-the-scenes stories and daily struggles on learning about programming.  It aims to document some of the work that I have been doing to connect with others in the software development industry.  My journey as a Junior Web Developer took a very long time.  However, Generation Australia gave me that chance to make this goal a reality.  I am forever grateful.</p>
+      </div>
+    </div>
+   <hr>
+ 
+  <!-- First Photo Grid-->
+   
+  <h2>Latest Posts</h2>
+
+  <div class="row" id="latest-posts">
+    <div class="column">
+      <div class="content">
+        <img src="img/bubbles-ss.jpg" alt="bubbles" style="width:100%">
+        <p>Bubbles animation using CSS only</p>
+      </div> 
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="img/curtain-menu.jpg" alt="menu" style="width:100%">
+        <p>Animated curtain menu with opacity</p>
+      </div> 
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="img/gallery-filtering.jpg" alt="gallery" style="width:100%">
+        <p>Add filtering function on gallery using javascript</p>
+      </div> 
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="img/create-logotype.jpg" alt="logotype" style="width:100%">
+        <p>Create logotype using Google Font API and CSS</p>
+      </div> 
+    </div>
+  </div>
+   
+  <!-- Second Photo Grid-->
+    <div class="row" id="more-posts">
+      <div class="column">
+        <div class="content">
+          <img src="img/styling-font.jpg" alt="Sandwich" style="width:100%">
+          <p>Use CSS to create wireframe look font</p>
+        </div> 
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="img/web-iframe.jpg" alt="Sandwich" style="width:100%">
+          <p>Use iframe and create a device look to run your website</p>
+        </div> 
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Pagination -->
+  <!-- <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div> -->
+    
+</div>
+
+<footer>
+    <small>Made at Generation :: Academy Xi || &#169; Copyright 2020 by Gavin Pili.</small>
+</footer>   
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/sidenav.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  
+</body>
+
+</html>
