@@ -1,0 +1,175 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>GAVIN PILI :: Design Portfolio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Font API -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&Capriola&family=Syne&Lato:wght@100;300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/sidenav.css">
+
+  <meta name="theme-color" content="#fafafa">
+  <!-- <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+  </style> -->
+</head>
+
+<body>
+
+<div class="container main">    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="/" onclick="return false;">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+        
+        <!-- Use any element to open the sidenav -->
+    <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <div style="text-align:center">
+        <h2>Portfolio</h2>
+    </div>
+
+    <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> All</button>
+    <button class="btn" onclick="filterSelection('web')"> Web</button>
+    <button class="btn" onclick="filterSelection('branding')"> Branding</button>
+    <button class="btn" onclick="filterSelection('objects')"> Objects</button>
+    <button class="btn" onclick="filterSelection('photomedia')"> Photomedia</button>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+        <div class="column web">
+            <div class="content">
+                <img src="img/taskplanner-mac.jpg" alt="web" style="width:100%">
+                <h5>Task Planner Web App</h5>
+                <p>Junior Web Dev Program</p>
+            </div>
+        </div>
+        <div class="column web branding">
+            <div class="content">
+            <img src="img/irma-mac.jpg" alt="web" style="width:100%">
+            <h5>Website and Branding</h5>
+            <p>Client: Irma Gustaityte Design</p>
+            </div>
+        </div>
+
+        <div class="column web">
+            <div class="content">
+            <img src="img/weather-mac.jpg" alt="web" style="width:100%">
+            <h5>Weather Web App</h5>
+            <p>Junior Web Dev Program</p>
+            </div>
+        </div>
+        <div class="column web">
+            <div class="content">
+            <img src="img/weather-iphone.jpg" alt="web" style="width:100%">
+            <h5>Weather Web App</h5>
+            <p>Junior Web Dev Program</p>
+            </div>
+        </div>
+
+        <div class="column branding">
+            <div class="content">
+            <img src="img/macrosec-bc-01.jpg" alt="biz-card" style="width:100%">
+            <h5>Card and Branding</h5>
+            <p>Client: Macrosec Australia</p>
+            </div>
+        </div>
+
+        <div class="column branding">
+            <div class="content">
+            <img src="img/macrosec-bc-02.jpg" alt="biz-card" style="width:100%">
+            <h5>Card and Branding</h5>
+            <p>Client: Macrosec Australia</p>
+            </div>
+        </div>
+        <div class="column branding">
+            <div class="content">
+            <img src="img/vespa-poster-02.jpg" alt="poster" style="width:100%">
+            <h5>Print and Branding</h5>
+            <p>Client: Vespa Primavera</p>
+            </div>
+        </div>
+
+        <div class="column branding">
+            <div class="content">
+            <img src="img/profile-poster-03.jpg" alt="poster" style="width:100%">
+            <h5>Print, Digital and Branding</h5>
+            <p>Client: JMGA-NSW, Inc.</p>
+            </div>
+        </div>
+        <div class="column branding">
+            <div class="content">
+            <img src="img/candygray-bc.jpg" alt="biz-card" style="width:100%">
+            <h5>Card and Branding</h5>
+            <p>Client: Candy Gray Design</p>
+            </div>
+        </div>
+        <div class="column branding">
+            <div class="content">
+            <img src="img/regensolar-logo.jpg" alt="logo" style="width:100%">
+            <h5>Logo and Branding</h5>
+            <p>Client: RegenSolar Company</p>
+            </div>
+        </div>
+        <div class="column photomedia">
+            <div class="content">
+            <img src="img/dlsmhsi-book.jpg" alt="book" style="width:100%">
+            <h5>Art Book and iBook</h5>
+            <p>Client: DLSMHSI Alumni Assoc</p>
+            </div>
+        </div>
+        <div class="column photomedia">
+            <div class="content">
+            <img src="img/artist-book.jpg" alt="book" style="width:100%">
+            <h5>Artist Book, Exhibition</h5>
+            <p>Group Exhibition</p>
+            </div>
+        </div>
+        
+    <!-- END GRID -->
+    </div>
+</div>
+
+<footer>
+    <small>Made at Generation :: Academy Xi || &#169; Copyright 2020 by Gavin Pili.</small>
+</footer>   
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/portfolio.js"></script>
+  <script src="js/sidenav.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  
+</body>
+
+</html>

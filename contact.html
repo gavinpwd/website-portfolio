@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GAVIN PILI :: Design Portfolio</title>
+  <meta name="description" content="Design Portfolio Website">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Font API -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&Capriola&family=Syne&Lato:wght@100;300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/sidenav.css">
+
+  <meta name="theme-color" content="#fafafa">
+ 
+</head>
+
+<body>
+
+<div class="container main">    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="/" onclick="return false;">Contact</a>
+    </div>
+        
+        <!-- Use any element to open the sidenav -->
+    <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <div style="text-align:center">
+        <h2>Contact</h2>
+        <!-- <p>Say hello or leave me a message :)</p> -->
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <img src="img/memoji.jpg" alt="avatar" class="avatar">
+          <div class="social-icon">
+            <a href="https://www.linkedin.com/in/gavin-pili/" target="_blank"><i class="fa fa-linkedin"></i></a> 
+                <p>LinkedIn</p>
+            <a href="https://github.com/gavinpwd" target="_blank"><i class="fa fa-github"></i></a>
+                <p>GitHub Repository</p>
+            <a href="https://www.instagram.com/gavinpili/" target="_blank"><i class="fa fa-instagram"></i></a> 
+                <p>Instagram</p>
+          </div>
+          
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option class="country" value="australia">Australia</option>
+              <option class="country" value="canada">Canada</option>
+              <option class="country" value="usa">USA</option>
+              <option class="country" value="uk">UK</option>
+              <option class="country" value="other">Other</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+   
+    <footer>
+      <small>Made at Generation :: Academy Xi || &#169; Copyright 2020 by Gavin Pili.</small>
+    </footer>
+  
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/sidenav.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+
+  </body>
+ 
+</html>
+  
+  
