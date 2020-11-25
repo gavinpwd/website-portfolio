@@ -92,7 +92,6 @@ body {
   width:100%;
   height:100vh;
   background: whitesmoke; 
-  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -242,6 +241,7 @@ p {
   color: transparent;
   -webkit-text-stroke: 1px goldenrod;
   text-decoration:none;
+  font-family: 'Lato', sans-serif;
   /* text-transform:uppercase; */
 }
 .text-links a:hover{
@@ -252,10 +252,12 @@ p {
   -moz-transition: color 1.5s ease-in;
   -o-transition: color 1.5s ease-in;
   transition: color 1.5s ease-in;
+  font-family: 'Lato', sans-serif;
 }
 }
 .text-links a::selection{
   color: transparent;
+  font-family: 'Lato', sans-serif;
   /* -webkit-text-stroke: 1px black; */
 }
 
@@ -263,6 +265,7 @@ p {
   color: gainsboro;
   -webkit-text-stroke: 0px goldenrod;
   text-decoration:none;
+  font-family: 'Lato', sans-serif;
   
 }
 
@@ -294,7 +297,7 @@ footer, small{
 }
 
 
-#work {
+/* #work {
   width: 60vh;
   height:10vh;
   text-align:center;
@@ -309,9 +312,9 @@ footer, small{
   flex-direction: column;
   justify-content:center;
   z-index:4;
-  transition:0.4s ease-in-out;
-  border-radius:0px 0px 100px 100px;
-}
+  transition:0.4s ease-in-out; 
+  border-radius:0px 0px 100px 100px;  
+} */ 
 
 
 
