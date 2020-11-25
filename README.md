@@ -51,7 +51,7 @@ Home Page:  I originally wanted a page for each link (Web, Branding, Objects and
 ![Home Page](/img/home-ss.png)
 
 
-Curtain Menu with Opacity:  I am thinking of adding the logotype with this menu to be consistent with the home page.  I would have to add logotype.jpg onstead of teh curretn set-up where the it is created using CSS.
+Curtain Menu with Opacity:  I am thinking of adding the logotype with this menu to be consistent with the home page.  I would have to add logotype.jpg instead of the current set-up where the it is created using CSS.
 
 ![Curtain Menu with Opacity](/img/curtain-menu.jpg)
 
@@ -62,10 +62,10 @@ Gallery Filter Function
 
 
 404 Page with Bubbles Animation:  Credit to: https://codepen.io/Mark_Bowley/pen/mEtqj  I've changed the values to suit this project.
-To trigger this page, try https://gavinpwd.github.io/website-portfolio/inde.html ( i've removed letter x on index.html)
+To trigger this page, try https://gavinpwd.github.io/website-portfolio/inde.html (I've removed letter x on index.html)
 ![404 Page with Bubbles Animation](/img/bubbles-ss.jpg)
 
 
 ***
 ## Contributions, Collaborations and Issues
-Feel free to fork / clone the repo.  Just a reminder to please use your own images for your project.  As a Junior Web Dev, I am continously learning everyday so I would be happy to hear from other programmers to teach me to code efficiently and beautifully.  Feel free to reach out to me if you find any issues and/or have suggestions to improve this work.  
+Feel free to fork / clone the repo.  Just a reminder to please use your own images for your project.  As a Junior Web Dev, I am continously learning everyday so I would be happy to hear from other programmers to teach me to code efficiently and beautifully.  Feel free to reach out to me if you find any issues and/or have suggestions to improve this work.  This is my most challenging but enjoyable project so far.
