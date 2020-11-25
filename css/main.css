@@ -269,7 +269,8 @@ p {
   
 }
 
-#logo {
+
+#logo span{
   /* background-color: #111; */
   color:gainsboro;
   padding: 30px;
